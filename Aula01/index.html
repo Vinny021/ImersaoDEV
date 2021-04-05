@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Imersão Dev - Aula 01</title>
+    
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="page-title">
+            Conversor de moedas
+        </h1>
+
+        <p
+        id="page-subtitle" 
+        class="page-subtitle">
+        Converta valores de Dolar e Euro para Real R$
+        </p>
+
+        <img 
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo" alt="">
+
+        <p 
+        id="page-description"
+        class="page-description">
+            Escolha a moeda a ser convertida
+        </p>
+        <p>
+            <button 
+            id="button1"
+            class="button1"
+            onclick=converterDolar()>
+               Dolar
+            </button>
+
+            <button
+            id="button2"
+            class="button2"
+            onclick=converterEuro()>
+                Euro
+            </button>
+
+            <div>
+                <p
+                id="change-description" 
+                class="page-description">
+                    Conversor de distâncias
+                </p>
+
+                <button
+                id="buttonMudanca"
+                class="buttonMudanca"
+                onclick=mudarPaginaDistancia()>
+                Distância
+            </button>
+            </div>
+            
+        </p>
+
+    </div>
+
+        <a href="https://alura.com.br/" target="_blank">
+            <img 
+            src="https://www.alura.com.br/assets/img/home/alura-logo.svg" 
+            alt=""
+            class="alura-logo">
+        </a>
+</body>
+</html>
