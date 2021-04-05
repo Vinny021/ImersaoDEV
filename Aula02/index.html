@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Imersão Dev - Aula 02</title>
+</head>
+<body>
+        <div class="container">
+           
+            <h1
+                id="page-title"
+                class="page-title">
+                Calculadora
+            </h1>
+           
+            <img 
+            id="imagem-primeiro-plano"
+            src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-calculadora.svg"
+            alt="page-logo"
+            class="page-logo">
+
+           <div 
+           id="calculadora"
+           class="calculadora">
+           </div>        
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img 
+            src="https://www.alura.com.br/assets/img/home/alura-logo.svg" 
+            alt="alura-logo"
+            class="alura-logo"
+            >
+        </a>
+        <div
+        id="div-resultado">
+            <script>
+                escreveResultado()
+            </script>
+            <h2 id='resultado'></h2>    
+        </div>
+        <div
+        class="button-div">
+
+            <button
+            id="prompt-button"
+            class="prompt-button"
+            onclick=iniciaQuiz()>
+            Clique aqui para responder
+            </button>
+
+            <button
+            id="button-mudanca"
+            class="button-mudanca"
+            onclick=mudaPaginaPokemon()>
+                Quiz Pokemon
+            </button>
+        </div>
+        
+</body>
+</html>
