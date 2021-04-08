@@ -53,3 +53,36 @@ th, tr, td {
     border: solid 1px white;
     color: white;
 }
+
+button{
+    border: 0;
+    color: #ffffff;
+    background: #000000;
+    font-weight: bold;
+    padding: 0.2rem 1.5rem;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .3s; 
+}
+
+button:hover{
+    background: rgb(73, 73, 73);
+}
+
+.new-player-button {
+    margin-top: 4rem;
+    border: 0;
+    color: #ffffff;
+    background: #3a0979;
+    font-weight: bold;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.new-player-button:hover{
+    opacity: .8;
+    background: #3a0979;
+}
