@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+    <title>Imersão Dev - Aula 07</title>
+</head>
+<body>
+    <div
+    class="container">
+        <img 
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" 
+        alt="logo-imersao"
+        class="page-logo">
+
+        <h1 class="page-title">
+            Super Trunfo
+        </h1>
+
+        <button
+        onclick="sortearCarta()"
+        id="button-draft">
+            Sortear Carta
+        </button>
+
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+
+            <div class="options" id="options"></div>
+
+            <button type="button" id="play-button" onclick="jogar()">
+                Jogar
+            </button>
+        </form>
+    </div>
+    
+</body>
+</html>
