@@ -21,11 +21,17 @@ url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-b
 }
 
 button{
+    font-family: 'Robot Mono', monospace;
+    font-weight: bold;
     padding: .8rem 1.5rem;
     margin: 1rem 0;
     border-radius: 5px;
     border: none;
     font-size: 1rem;
+}
+
+button:hover{
+    opacity: 80%;
 }
 
 h2{
